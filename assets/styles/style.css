@@ -45,3 +45,15 @@ body {
 .font-40 {
     font-size: 40px;
 }
+
+@media only screen and (max-width: 767px){
+
+}
+
+@media only screen and (max-width: 1023px){
+
+}
+
+@media only screen and (min-width: 1024px){
+
+}
