@@ -11,10 +11,37 @@
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
-<div class="container-fluid">
+<div id="content" class="container-fluid">
     <div class="d-flex flex-column flex-lg-row">
-        <header class="col-1">
-            header
+        <header class="col-12 col-lg-1 d-flex flex-row flex-lg-column justify-content-between">
+            <nav class="navbar navbar-expand-lg navbar-light container-fluid px-0 d-flex flex-lg-column flex-row justify-content-between">
+                <a class="navbar-brand font-weight-bolder font-14" href="#">AXEL = ARIGATO</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav d-flex flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold black-text font-18" href="#">Men</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold black-text font-18" href="#">Women</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold black-text font-18" href="#">Objects</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-none d-lg-flex align-items-center">
+                    <i class="fas fa-bars mr-2"></i> <span>Menu</span>
+                </div>
+            </nav>
+            <div id="social-links" class="d-none d-lg-flex flex-column mx-auto justify-content-end">
+                <a href="#" class="black-text mb-3 font-weight-bold font-14">Instagram</a>
+                <a href="#" class="black-text mb-3 font-weight-bold font-14">Facebook</a>
+                <a href="#" class="black-text mb-3 font-weight-bold font-14">Twitter</a>
+                <a href="#" class="black-text mb-3 font-weight-bold font-14">Youtube</a>
+            </div>
         </header>
         <main class="col-10">
             main
@@ -28,5 +55,6 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/b53238e3c8.js" crossorigin="anonymous"></script>
 </body>
 </html>

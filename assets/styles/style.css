@@ -55,5 +55,19 @@ body {
 }
 
 @media only screen and (min-width: 1024px){
+    #content {
+        height: 100vh;
+    }
 
+    #content > div:nth-child(1) {
+        height: 100vh;
+    }
+
+    header > nav {
+        height: 50vh;
+    }
+
+    #social-links {
+        height: 50vh;
+    }
 }
