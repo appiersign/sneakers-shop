@@ -51,7 +51,20 @@ body {
 }
 
 @media only screen and (max-width: 1023px){
+    #content {
+        height: 862px;
+    }
 
+    #main-shoe {
+        height: 862px;
+    }
+
+    #feature-text {
+        height: 200px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
 }
 
 @media only screen and (min-width: 1024px){
@@ -117,7 +130,7 @@ body {
         background-size: cover;
     }
 
-    #featured > div {
+    #feature-text{
         height: 50vh;
     }
 
@@ -126,5 +139,7 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        margin-left: 10px;
+        height: 50vh;
     }
 }
