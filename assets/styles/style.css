@@ -47,10 +47,16 @@ body {
 }
 
 @media only screen and (max-width: 767px){
+    #content {
+        height: 80vh;
+    }
 
+    #main-shoe {
+        height: 70vh;
+    }
 }
 
-@media only screen and (max-width: 1023px){
+@media only screen and (min-width: 768px){
     #content {
         height: 862px;
     }
@@ -118,8 +124,9 @@ body {
         white-space: nowrap;
     }
 
-    #feature-text p {
+    #feature-text > div p {
         font-size: 24px;
+        font-weight: 700;
     }
 
     #feature-text p:nth-child(1) {
