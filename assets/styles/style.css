@@ -173,4 +173,8 @@ body {
     #product-img {
         height: 480px;
     }
+
+    #product-size {
+        height: 60px;
+    }
 }
