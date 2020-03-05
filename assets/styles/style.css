@@ -104,4 +104,16 @@ body {
         transform: rotate(90deg);
         white-space: nowrap;
     }
+
+    #main-shoe {
+        height: 100vh;
+        background-image: url("../images/13.jpeg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+    }
+
+    #featured > div {
+        height: 50vh;
+    }
 }
