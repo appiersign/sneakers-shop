@@ -165,4 +165,8 @@ body {
     #page-header {
         font-size: 20px;
     }
+
+    #product-brief {
+        height: 80px;
+    }
 }
