@@ -54,6 +54,10 @@ body {
     #main-shoe {
         height: 70vh;
     }
+
+    #page-header {
+        font-size: 14px;
+    }
 }
 
 @media only screen and (min-width: 768px){
@@ -70,6 +74,10 @@ body {
         position: absolute;
         right: 0;
         bottom: 0;
+    }
+
+    #page-header {
+        font-size: 16px;
     }
 }
 
@@ -152,5 +160,9 @@ body {
         background-size: cover;
         margin-left: 10px;
         height: 50vh;
+    }
+
+    #page-header {
+        font-size: 20px;
     }
 }
