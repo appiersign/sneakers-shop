@@ -15,15 +15,15 @@ body {
 }
 
 .black-bg {
-    color: black !important;
+    background-color: black !important;
 }
 
 .bg-faint-gray {
-    color: #f5f5f5 !important;
+    background-color: #F0F0F0 !important;
 }
 
 .bg-gray {
-    color: #b9b9b9 !important;
+    background-color: #b9b9b9 !important;
 }
 
 .font-12 {
@@ -105,15 +105,26 @@ body {
         white-space: nowrap;
     }
 
+    #feature-text p {
+        font-size: 24px;
+    }
+
     #main-shoe {
         height: 100vh;
         background-image: url("../images/13.jpeg");
+        background-position: center;
         background-repeat: no-repeat;
-        background-position: center center;
-        background-size: contain;
+        background-size: cover;
     }
 
     #featured > div {
         height: 50vh;
+    }
+
+    #feature-shoe {
+        background-image: url("../images/1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
