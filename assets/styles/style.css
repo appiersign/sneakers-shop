@@ -26,6 +26,10 @@ body {
     background-color: #b9b9b9 !important;
 }
 
+.font-8 {
+    font-size: 8px;
+}
+
 .font-12 {
     font-size: 12px;
 }
