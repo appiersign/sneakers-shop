@@ -15,11 +15,11 @@ body {
 }
 
 .black-bg {
-    background-color: black !important;
+    background-color: black;
 }
 
 .bg-faint-gray {
-    background-color: #F0F0F0 !important;
+    background-color: #F0F0F0;
 }
 
 .bg-gray {
@@ -171,6 +171,6 @@ body {
     }
 
     #product-img {
-        height: 100px;
+        height: 480px;
     }
 }
