@@ -122,6 +122,10 @@ body {
         font-size: 24px;
     }
 
+    #feature-text p:nth-child(1) {
+        white-space: nowrap;
+    }
+
     #main-shoe {
         height: 100vh;
         background-image: url("../images/13.jpeg");
