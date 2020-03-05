@@ -169,4 +169,8 @@ body {
     #product-brief {
         height: 80px;
     }
+
+    #product-img {
+        height: 100px;
+    }
 }
