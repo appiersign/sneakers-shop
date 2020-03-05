@@ -181,4 +181,8 @@ body {
     #product-details {
         height: 260px;
     }
+
+    #product-action {
+        height: 68px;
+    }
 }
