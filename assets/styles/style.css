@@ -67,6 +67,10 @@ body {
         height: 90vh;
     }
 
+    #product-img {
+        height: 35vh;
+    }
+
     footer {
         height: 3vh;
     }
