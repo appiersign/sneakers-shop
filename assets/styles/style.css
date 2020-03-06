@@ -50,17 +50,45 @@ body {
     font-size: 40px;
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 375px){
     #content {
-        height: 80vh;
-    }
-
-    #main-shoe {
-        height: 70vh;
+        height: 100vh;
     }
 
     #page-header {
         font-size: 14px;
+    }
+
+    header {
+        height: 7vh;
+    }
+
+    main {
+        height: 90vh;
+    }
+
+    footer {
+        height: 3vh;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #content {
+        height: 100vh;
+    }
+
+
+
+    footer {
+        height: 10vh;
+    }
+
+    #product-brief {
+        /*height: 10vh;*/
+    }
+
+    #product-img {
+        /*height: 30vh;*/
     }
 }
 
@@ -82,6 +110,22 @@ body {
 
     #page-header {
         font-size: 16px;
+    }
+
+    #product-size {
+        height: 70px;
+    }
+
+    #product-brief {
+        height: 96px;
+    }
+
+    #product-details {
+        height: 160px;
+    }
+
+    #product-action {
+        height: 75px;
     }
 }
 
@@ -188,5 +232,17 @@ body {
 
     #product-action {
         height: 68px;
+    }
+
+    #views {
+        height: 400px !important;
+    }
+
+    #views > div {
+        height: 182px;
+    }
+
+    main {
+        height: 182px;
     }
 }
