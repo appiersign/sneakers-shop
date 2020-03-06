@@ -100,39 +100,13 @@ body {
     }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
     #content {
         height: 100vh;
     }
 
-    #product-sizes {
-        height: 10vh;
-    }
-
-    footer {
-        height: 10vh;
-    }
-
-    #product-action {
-        height: 10vh;
-    }
-
-    #product-action > div > div {
-        height: 10vh;
-    }
-
-    #product-brief {
-        /*height: 10vh;*/
-    }
-
-    #product-img {
-        /*height: 30vh;*/
-    }
-}
-
-@media only screen and (min-width: 768px){
-    #content {
-        height: 862px;
+    main {
+        height: 115vh;
     }
 
     #main-shoe {
@@ -150,20 +124,36 @@ body {
         font-size: 16px;
     }
 
-    #product-size {
-        height: 70px;
+    #product-views {
+        height: 90vh;
     }
 
-    #product-brief {
-        height: 96px;
+    #product-sizes {
+        height: 10vh;
     }
 
-    #product-details {
-        height: 160px;
+    footer {
+        height: 10vh;
     }
 
     #product-action {
-        height: 75px;
+        height: 15vh;
+    }
+
+    #product-action > div > div {
+        height: 14vh;
+    }
+
+    #product-brief {
+        height: 12vh;
+    }
+
+    #product-sizes {
+        height: 10vh;
+    }
+
+    #product-details {
+        height: 25vh;
     }
 }
 
