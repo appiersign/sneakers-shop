@@ -71,6 +71,10 @@ body {
         height: 35vh;
     }
 
+    #product-brief {
+        height: 10vh;
+    }
+
     footer {
         height: 3vh;
     }
