@@ -72,11 +72,19 @@ body {
     }
 
     #product-brief {
-        height: 10vh;
+        height: 15vh;
     }
 
     #product-sizes {
-        height: 6vh;
+        height: 10vh;
+    }
+
+    #product-details {
+        height: 20vh;
+    }
+
+    #product-action {
+        height: 10vh;
     }
 
     footer {
