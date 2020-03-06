@@ -54,7 +54,7 @@ body {
     font-size: 40px;
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (min-width: 375px){
     #content {
         height: 100vh;
     }
@@ -72,11 +72,11 @@ body {
     }
 
     #product-img {
-        height: 35vh;
+        height: 267px;
     }
 
     #product-brief {
-        height: 15vh;
+        height: 115px;
     }
 
     #product-sizes {
@@ -128,6 +128,14 @@ body {
         height: 90vh;
     }
 
+    #product-img {
+        height: 412px;
+    }
+
+    #product-img > img {
+        height: 100%;
+    }
+
     #product-sizes {
         height: 10vh;
     }
@@ -137,15 +145,15 @@ body {
     }
 
     #product-action {
-        height: 15vh;
-    }
-
-    #product-action > div > div {
         height: 14vh;
     }
 
+    #product-action > div > div {
+        height: 13vh;
+    }
+
     #product-brief {
-        height: 12vh;
+        height: 95px;
     }
 
     #product-sizes {
