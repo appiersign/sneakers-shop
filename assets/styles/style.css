@@ -105,7 +105,19 @@ body {
         height: 100vh;
     }
 
+    #product-sizes {
+        height: 10vh;
+    }
+
     footer {
+        height: 10vh;
+    }
+
+    #product-action {
+        height: 10vh;
+    }
+
+    #product-action > div > div {
         height: 10vh;
     }
 
