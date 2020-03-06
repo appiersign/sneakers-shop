@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
-<div id="content" class="container-fluid">
+<div id="content" class="container-fluid d-flex flex-column flex-lg-row px-0">
     <header class="col-12 col-lg-2 d-flex flex-row flex-lg-column justify-content-between">
         <nav class="navbar navbar-expand-lg navbar-light container-fluid px-0 d-flex flex-lg-column flex-row justify-content-between align-items-start">
             <a class="navbar-brand font-weight-bolder font-14" href="index.html">AXEL = ARIGATO</a>
@@ -44,70 +44,79 @@
             <a href="#" class="black-text mb-3 font-weight-bold font-14">Youtube</a>
         </div>
     </header>
-    <main class="row">
-        <div id="product-views" class="d-none d-md-flex col-md-3">
-            <div class="row">
-                <div class="col-md-12 pl-md-0 pr-md-1">
-                    <img src="assets/images/2.jpg" alt="" class="w-100">
-                </div>
-                <div class="col-md-12 pl-md-0 pr-md-1 pt-md-1">
-                    <img src="assets/images/3.jpg" alt="" class="w-100">
-                </div>
-                <div class="col-md-12 pl-md-0 pr-md-1 pt-md-1">
-                    <img src="assets/images/4.jpg" alt="" class="w-100">
-                </div>
-                <div class="col-md-12 pl-md-0 pr-md-1 pt-md-1">
-                    <img src="assets/images/2.jpg" alt="" class="w-100">
+    <main class="col-12 col-lg-8">
+        <div class="row">
+            <div id="product-views" class="d-none d-md-flex col-md-3 col-lg-12 mb-lg-2">
+                <div class="row">
+                    <div class="col-md-12 col-lg-3 pl-md-0 pr-md-1">
+                        <img src="assets/images/2.jpg" alt="" class="w-100">
+                    </div>
+                    <div class="col-md-12 col-lg-3 pl-md-0 pr-md-1 pt-md-1 pt-lg-0">
+                        <img src="assets/images/3.jpg" alt="" class="w-100">
+                    </div>
+                    <div class="col-md-12 col-lg-3 pl-md-0 pr-md-1 pt-md-1 pt-lg-0 pl-lg-1 pr-lg-0">
+                        <img src="assets/images/4.jpg" alt="" class="w-100">
+                    </div>
+                    <div class="col-md-12 col-lg-3 pl-md-0 pr-md-1 pt-md-1 pt-lg-0 pl-lg-1 pr-lg-0">
+                        <img src="assets/images/2.jpg" alt="" class="w-100">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-12 col-md-9">
-            <div class="row">
-                <div id="product-img" class="col-12 px-0">
-                    <img src="assets/images/6.jpg" alt="" class="w-100 h-100">
-                </div>
-                <div id="product-brief"
-                     class="col-12 bg-faint-gray d-flex justify-content-between align-items-center px-3 mt-1">
-                    <div class="d-flex flex-column justify-content-between">
-                        <span class="font-12 font-weight-bold">TECH RUNNER</span>
-                        <span class="font-8 font-weight-bold gray-text mt-2">MULTICOLOURED LEATHER</span>
-                    </div>
-                    <span class="font-12 font-weight-bold">380 USD</span>
-                </div>
-                <div id="product-sizes"
-                     class="col-12 bg-faint-gray mt-1 d-flex justify-content-around align-items-center">
-                    <span class="font-8 gray-text">40</span>
-                    <span class="font-8 gray-text">41</span>
-                    <span class="font-8 gray-text">42</span>
-                    <span class="font-8 font-weight-bold">43</span>
-                    <span class="font-8 gray-text">44</span>
-                    <span class="font-8 gray-text">45</span>
-                    <span class="font-8 gray-text">46</span>
-                </div>
-                <div id="product-details" class="col-12 bg-faint-gray mt-1 px-3 py-4">
-                    <article>
-                        <h6 class="font-12 font-weight-bold">DETAILS</h6>
-                        <p class="gray-text font-10">
-                            Launching the second release of the "Tech Runner" in 5 new colourways. Handcrafted in
-                            Portugal, the fusing of elements with robotics and engineering has an alternative approach
-                            to colour and detailing, making colourways more innovative than ever before.
-                        </p>
-                    </article>
-                </div>
-                <div id="product-action" class="col-12 mt-1">
-                    <div class="row bg-white">
-                        <div class="col-3 bg-faint-gray d-flex justify-content-center align-items-center">
-                            <i class="fas fa-plus"></i>
+            <div class="col-12 col-md-9 col-lg-12">
+                <div class="row">
+                    <div class="col-12 col-lg-7 order-1 order-lg-2">
+                        <div class="row">
+                            <div id="product-img" class="col-12 px-0 pt-lg-1 pl-lg-1">
+                                <img src="assets/images/6.jpg" alt="" class="w-100 h-100">
+                            </div>
                         </div>
-                        <div class="col-9 pl-1 pr-0">
-                            <div class="container-fluid bg-faint-gray h-100 d-flex justify-content-center align-items-center">
-                                <span class="font-12 font-weight-bold">Add To Cart</span>
+                    </div>
+                    <div class="col-12 col-lg-5 order-2 order-lg-1 px-0">
+                        <div id="product-brief"
+                             class="col-12 bg-faint-gray d-flex justify-content-between align-items-center px-3 mt-1">
+                            <div class="d-flex flex-column justify-content-between">
+                                <span class="font-12 font-weight-bold">TECH RUNNER</span>
+                                <span class="font-8 font-weight-bold gray-text mt-2">MULTICOLOURED LEATHER</span>
+                            </div>
+                            <span class="font-12 font-weight-bold">380 USD</span>
+                        </div>
+                        <div id="product-sizes"
+                             class="col-12 bg-faint-gray mt-1 d-flex justify-content-around align-items-center">
+                            <span class="font-8 gray-text">40</span>
+                            <span class="font-8 gray-text">41</span>
+                            <span class="font-8 gray-text">42</span>
+                            <span class="font-8 font-weight-bold">43</span>
+                            <span class="font-8 gray-text">44</span>
+                            <span class="font-8 gray-text">45</span>
+                            <span class="font-8 gray-text">46</span>
+                        </div>
+                        <div id="product-details" class="col-12 bg-faint-gray mt-1 px-3 py-4">
+                            <article>
+                                <h6 class="font-12 font-weight-bold">DETAILS</h6>
+                                <p class="gray-text font-10">
+                                    Launching the second release of the "Tech Runner" in 5 new colourways. Handcrafted in
+                                    Portugal, the fusing of elements with robotics and engineering has an alternative approach
+                                    to colour and detailing, making colourways more innovative than ever before.
+                                </p>
+                            </article>
+                        </div>
+                        <div id="product-action" class="col-12 mt-1">
+                            <div class="row bg-white">
+                                <div class="col-3 bg-faint-gray d-flex justify-content-center align-items-center">
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                                <div class="col-9 pl-1 pr-0">
+                                    <div class="container-fluid bg-faint-gray h-100 d-flex justify-content-center align-items-center">
+                                        <span class="font-12 font-weight-bold">Add To Cart</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </main>
     <footer class="col-12 col-lg-2 d-flex flex-row flex-lg-column justify-content-between pt-3 mt-4">
         <div class="d-none container-fluid d-lg-flex flex-column align-items-end">

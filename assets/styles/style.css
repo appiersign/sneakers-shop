@@ -55,20 +55,16 @@ body {
 }
 
 @media only screen and (min-width: 375px){
-    #content {
-        height: 100vh;
-    }
-
     #page-header {
         font-size: 14px;
     }
 
     header {
-        height: 7vh;
+        height: 100px;
     }
 
     main {
-        height: 90vh;
+        height: 450px;
     }
 
     #product-img {
@@ -101,10 +97,6 @@ body {
 }
 
 @media only screen and (min-width: 768px){
-    #content {
-        height: 100vh;
-    }
-
     main {
         height: 115vh;
     }
@@ -166,10 +158,6 @@ body {
 }
 
 @media only screen and (min-width: 1024px){
-    #content {
-        height: 100vh;
-    }
-
     #content > div:nth-child(1) {
         height: 100vh;
     }
@@ -255,19 +243,27 @@ body {
     }
 
     #product-img {
-        height: 480px;
+        height: 402px;
     }
 
-    #product-size {
-        height: 60px;
+    #product-sizes {
+        height: 50px;
     }
 
     #product-details {
         height: 260px;
     }
 
+    #product-views {
+        height: 192px;
+    }
+
     #product-action {
-        height: 68px;
+        height: 50px;
+    }
+
+    #product-action > div > div {
+        height: 50px;
     }
 
     #views {
