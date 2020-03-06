@@ -30,6 +30,10 @@ body {
     font-size: 8px;
 }
 
+.font-10 {
+    font-size: 10px;
+}
+
 .font-12 {
     font-size: 12px;
 }
@@ -87,6 +91,10 @@ body {
         height: 10vh;
     }
 
+    #product-action > div > div {
+        height: 10vh;
+    }
+
     footer {
         height: 3vh;
     }
@@ -96,8 +104,6 @@ body {
     #content {
         height: 100vh;
     }
-
-
 
     footer {
         height: 10vh;
