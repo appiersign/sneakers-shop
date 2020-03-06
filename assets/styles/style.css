@@ -162,6 +162,10 @@ body {
         height: 100vh;
     }
 
+    header {
+        height: 100vh;
+    }
+
     header > nav {
         height: 50vh;
     }
