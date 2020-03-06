@@ -75,6 +75,10 @@ body {
         height: 10vh;
     }
 
+    #product-sizes {
+        height: 6vh;
+    }
+
     footer {
         height: 3vh;
     }
