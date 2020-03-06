@@ -1,4 +1,6 @@
 # E-Sneaker Shop
+Design idea by [Dmitry Oxygen in Dribbble](https://dribbble.com/oxygen_dima)
+
 ![Preview](assets/images/preview.png)
 
 > The purpose of this project is to learn about media queries and responsive design with bootstrap.  
