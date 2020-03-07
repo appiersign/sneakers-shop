@@ -157,6 +157,14 @@ img {
     bottom: 0;
   }
 
+  #feature-text > div > h1{
+    font-size: 24px !important;
+  }
+
+  #feature-text > div > h2{
+    font-size: 18px !important;
+  }
+
   #page-header {
     font-size: 16px;
   }
@@ -288,6 +296,14 @@ img {
     background-size: cover;
     margin-left: 10px;
     height: 50vh;
+  }
+
+  #feature-text > div > h1{
+    font-size: 25px !important;
+  }
+
+  #feature-text > div > h2{
+    font-size: 20px !important;
   }
 
   #page-header {
