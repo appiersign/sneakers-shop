@@ -58,6 +58,35 @@ img {
   object-fit: cover;
 }
 
+.flex-container {
+  display: flex;
+}
+
+.main-axis-center {
+  justify-content: center;
+}
+
+.main-axis-between {
+  justify-content: space-between;
+}
+
+.main-axis-end {
+  justify-content: end;
+}
+
+.cross-axis-center {
+  align-items: center;
+}
+
+.cross-axis-end {
+  align-items: flex-end;
+}
+
+.main-cross-axis-center {
+  justify-content: center;
+  align-items: center;
+}
+
 @media only screen and (min-width: 375px) {
   #page-header {
     font-size: 14px;
