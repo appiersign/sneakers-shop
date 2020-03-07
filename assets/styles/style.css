@@ -54,6 +54,10 @@ body {
   font-size: 40px;
 }
 
+img {
+  object-fit: cover;
+}
+
 @media only screen and (min-width: 375px) {
   #page-header {
     font-size: 14px;
