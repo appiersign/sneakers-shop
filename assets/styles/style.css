@@ -71,7 +71,11 @@ img {
 }
 
 .main-axis-end {
-  justify-content: end;
+  justify-content: flex-end;
+}
+
+.cross-axis-start {
+  align-items: flex-start;
 }
 
 .cross-axis-center {
