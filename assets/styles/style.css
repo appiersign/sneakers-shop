@@ -67,6 +67,14 @@ body {
     height: 450px;
   }
 
+  #feature-text > div > h1{
+    font-size: 26px !important;
+  }
+
+  #feature-text > div > h2{
+    font-size: 18px !important;
+  }
+
   #product-img {
     height: 267px;
   }
@@ -220,12 +228,7 @@ body {
     white-space: nowrap;
   }
 
-  #feature-text > div p {
-    font-size: 24px;
-    font-weight: 700;
-  }
-
-  #feature-text p:nth-child(1) {
+  #feature-text > div > h1 {
     white-space: nowrap;
   }
 
