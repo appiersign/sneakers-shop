@@ -104,11 +104,11 @@ img {
     height: 450px;
   }
 
-  #feature-text > div > h1{
+  #feature-text > div > h1 {
     font-size: 26px !important;
   }
 
-  #feature-text > div > h2{
+  #feature-text > div > h2 {
     font-size: 18px !important;
   }
 
@@ -157,11 +157,11 @@ img {
     bottom: 0;
   }
 
-  #feature-text > div > h1{
+  #feature-text > div > h1 {
     font-size: 24px !important;
   }
 
-  #feature-text > div > h2{
+  #feature-text > div > h2 {
     font-size: 18px !important;
   }
 
@@ -273,10 +273,6 @@ img {
     white-space: nowrap;
   }
 
-  #feature-text > div > h1 {
-    white-space: nowrap;
-  }
-
   #main-shoe {
     height: 100vh;
     background-image: url("../images/13.jpeg");
@@ -298,11 +294,12 @@ img {
     height: 50vh;
   }
 
-  #feature-text > div > h1{
+  #feature-text > div > h1 {
     font-size: 25px !important;
+    white-space: nowrap;
   }
 
-  #feature-text > div > h2{
+  #feature-text > div > h2 {
     font-size: 20px !important;
   }
 
