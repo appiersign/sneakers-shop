@@ -1,0 +1,345 @@
+body {
+  font-family: "Muli", sans-serif !important;
+}
+
+.black-text {
+  color: #313131 !important;
+}
+
+.faint-gray-text {
+  color: #f5f5f5 !important;
+}
+
+.gray-text {
+  color: #b9b9b9 !important;
+}
+
+.black-bg {
+  background-color: black;
+}
+
+.bg-faint-gray {
+  background-color: #f0f0f0;
+}
+
+.bg-gray {
+  background-color: #b9b9b9 !important;
+}
+
+.font-8 {
+  font-size: 8px;
+}
+
+.font-10 {
+  font-size: 10px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-40 {
+  font-size: 40px;
+}
+
+img {
+  object-fit: cover;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.main-axis-center {
+  justify-content: center;
+}
+
+.main-axis-between {
+  justify-content: space-between;
+}
+
+.main-axis-end {
+  justify-content: flex-end;
+}
+
+.cross-axis-start {
+  align-items: flex-start;
+}
+
+.cross-axis-center {
+  align-items: center;
+}
+
+.cross-axis-end {
+  align-items: flex-end;
+}
+
+.main-cross-axis-center {
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+  #page-header {
+    font-size: 14px;
+  }
+
+  header {
+    height: 100px;
+  }
+
+  main {
+    height: 450px;
+  }
+
+  #feature-text > div > h1 {
+    font-size: 26px !important;
+  }
+
+  #feature-text > div > h2 {
+    font-size: 18px !important;
+  }
+
+  #product-img {
+    height: 267px;
+  }
+
+  #product-brief {
+    height: 115px;
+  }
+
+  #product-sizes {
+    height: 10vh;
+  }
+
+  #product-details {
+    height: 20vh;
+  }
+
+  #product-action {
+    height: 10vh;
+  }
+
+  #product-action > div > div {
+    height: 10vh;
+  }
+
+  footer {
+    height: 3vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    height: 115vh;
+  }
+
+  #main-shoe {
+    height: 862px;
+  }
+
+  #feature-text {
+    height: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  #feature-text > div > h1 {
+    font-size: 24px !important;
+  }
+
+  #feature-text > div > h2 {
+    font-size: 18px !important;
+  }
+
+  #page-header {
+    font-size: 16px;
+  }
+
+  #product-views {
+    height: 90vh;
+  }
+
+  #product-img {
+    height: 412px;
+  }
+
+  #product-img > img {
+    height: 100%;
+  }
+
+  footer {
+    height: 10vh;
+  }
+
+  #product-action {
+    height: 14vh;
+  }
+
+  #product-action > div > div {
+    height: 13vh;
+  }
+
+  #product-brief {
+    height: 95px;
+  }
+
+  #product-sizes {
+    height: 10vh;
+  }
+
+  #product-details {
+    height: 25vh;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  footer > div {
+    height: 33vh;
+  }
+
+  #views > div {
+    height: 182px;
+  }
+
+  #product-views > div > div {
+    height: 234px;
+  }
+
+  #product-action > div > div {
+    height: 50px;
+  }
+
+  #content > div:nth-child(1) {
+    height: 100vh;
+  }
+
+  header {
+    height: 100vh;
+  }
+
+  header > nav {
+    height: 50vh;
+  }
+
+  #social-links {
+    height: 50vh;
+  }
+
+  footer {
+    height: 100vh;
+  }
+
+  #cart-items {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+    font-weight: bold;
+    padding-top: 2px;
+    margin-right: -5px;
+  }
+
+  #date {
+    white-space: nowrap;
+  }
+
+  .bar-20 {
+    width: 20px;
+    border-bottom: 2px solid black;
+  }
+
+  .bar-10 {
+    width: 10px;
+    border-bottom: 2px solid black;
+  }
+
+  #scroll-text {
+    transform: rotate(90deg);
+    white-space: nowrap;
+  }
+
+  #main-shoe {
+    height: 100vh;
+    background-image: url("../images/13.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #feature-text {
+    height: 50vh;
+  }
+
+  #feature-shoe {
+    background-image: url("../images/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    height: 50vh;
+  }
+
+  #feature-text > div > h1 {
+    font-size: 25px !important;
+    white-space: nowrap;
+  }
+
+  #feature-text > div > h2 {
+    font-size: 20px !important;
+  }
+
+  #page-header {
+    font-size: 20px;
+  }
+
+  #product-brief {
+    height: 80px;
+  }
+
+  #product-img {
+    height: 402px;
+  }
+
+  #product-sizes {
+    height: 50px;
+  }
+
+  #product-details {
+    height: 260px;
+  }
+
+  #product-views {
+    height: 234px;
+  }
+
+  #product-action {
+    height: 50px;
+  }
+
+  #views {
+    height: 400px !important;
+  }
+
+  main {
+    height: 182px;
+  }
+
+  #paginator {
+    height: 54px;
+  }
+}

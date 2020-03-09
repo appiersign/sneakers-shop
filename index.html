@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Solomon Appier-Sign">
+    <meta name="description" content="Sneaker Shop template">
+    <title>Sneaker Shop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+<div id="content" class="container-fluid px-0">
+    <div class="flex-container flex-column flex-lg-row">
+        <header class="col-12 col-lg-2 flex-container flex-row flex-lg-column main-axis-between">
+            <nav class="navbar navbar-expand-lg navbar-light container-fluid px-0 flex-container flex-lg-column flex-row main-axis-between cross-axis-start">
+                <a class="navbar-brand font-weight-bolder font-14" href="index.html">AXEL = ARIGATO</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav flex-container flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold black-text font-18" href="#">Men</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold black-text font-18" href="#">Women</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold black-text font-18" href="#">Objects</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-none d-lg-flex cross-axis-center">
+                    <i class="fas fa-bars mr-2"></i> <span>Menu</span>
+                </div>
+            </nav>
+            <div id="social-links" class="d-none d-lg-flex flex-column main-axis-end">
+                <a href="#" class="black-text mb-3 font-weight-bold font-14">Instagram</a>
+                <a href="#" class="black-text mb-3 font-weight-bold font-14">Facebook</a>
+                <a href="#" class="black-text mb-3 font-weight-bold font-14">Twitter</a>
+                <a href="#" class="black-text mb-3 font-weight-bold font-14">Youtube</a>
+            </div>
+        </header>
+        <main class="col-12 col-md-12 col-lg-8">
+            <div class="row position-relative d-flex flex-lg-row flex-sm-column">
+                <div id="main-shoe" class="col-sm-12 px-0 col-lg-6 bg-danger">
+                    <img src="./assets/images/13.jpeg" alt="" class="d-block d-lg-none w-100">
+                </div>
+                <div id="featured" class="col-sm-12 col-lg-6">
+                    <div class="row">
+                        <div id="feature-shoe" class="col-12"></div>
+                        <div id="feature-text" class="col-12 col-sm-6 col-lg-12 p-4 p-lg-5 flex-container flex-column main-axis-between bg-white">
+                            <div>
+                                <h1>AXEL ARIGATO X CAT</h1>
+                                <h2>COLLECTION</h2>
+                            </div>
+                            <div>
+                                <a href="./pages/category.html" class="black-text font-weight-bold">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="col-12 col-lg-2 flex-container flex-lg-column main-axis-center pt-3">
+            <div class="d-none container-fluid d-lg-flex flex-column cross-axis-end">
+                <div class="flex-container main-axis-between">
+                    <span class="mr-5">Cart</span>
+                    <div id="cart-items" class="text-center">0</div>
+                </div>
+                <i class="fas fa-search mt-5"></i>
+                <i class="far fa-user mt-5"></i>
+            </div>
+            <div class="mt-5 mr-4 d-none d-lg-flex flex-row main-axis-end">
+                <div id="date" class="mr-3 font-weight-bold">01 / 05</div>
+                <div class="mt-3 flex-container flex-column cross-axis-end">
+                    <div class="bar-20 mb-3"></div>
+                    <div class="bar-10 mb-3"></div>
+                    <div class="bar-10 mb-3"></div>
+                    <div class="bar-10 mb-3"></div>
+                    <div class="bar-10 mb-3"></div>
+                </div>
+            </div>
+            <div class="d-none d-lg-flex flex-row main-axis-end cross-axis-center p-0 m-0">
+                <div><br></div>
+                <div id="scroll-text" class="font-12 flex-container main-axis-end pt-0 font-weight-bold">Scroll Down</div>
+            </div>
+            <div class="container-fluid d-lg-none text-center">
+                <p class="font-12">Designed with affection from Ghana</p>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/b53238e3c8.js" crossorigin="anonymous"></script>
+</body>
+</html>
